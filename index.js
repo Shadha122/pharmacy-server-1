@@ -16,8 +16,7 @@ app.use(express.json());
 // MongoDB Connection
 mongoose
   .connect(
-    "mongodb+srv://Admin:1234@cluster0.gg49p.mongodb.net/PharmacyDB?retryWrites=true&w=majority&appName=Cluster0",
-    { useNewUrlParser: true, useUnifiedTopology: true }
+    "mongodb+srv://Admin:1234@cluster0.gg49p.mongodb.net/PharmacyDB?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => console.log('Connected to MongoDB'))
   .catch((err) => console.error('MongoDB connection error:', err));
