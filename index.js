@@ -159,11 +159,6 @@ app.get('/orders/:userId', async (req, res) => {
   }
 });
 
-// Root Route
-app.get('/', (req, res) => {
-  res.send('Welcome to the Pharmacy Server!');
-});
-
 
 // Start the Server
 const PORT = 5000;
